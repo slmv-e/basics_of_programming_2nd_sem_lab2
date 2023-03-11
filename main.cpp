@@ -2,7 +2,9 @@
 
 int main() {
     Fraction a, b(5, 500);
-    Fraction res = a / b;
-    res.printAttributes(false);
+    Fraction subtract = a - b;
+    Fraction division = a / b;
+    subtract.printAttributes(true);
+    subtract.printAttributes(false);
     return 0;
 }
