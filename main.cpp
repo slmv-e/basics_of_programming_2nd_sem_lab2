@@ -5,6 +5,6 @@ int main() {
     Fraction subtract = a - b;
     Fraction division = a / b;
     subtract.printAttributes(true);
-    subtract.printAttributes(false);
+    division.printAttributes(false);
     return 0;
 }
