@@ -60,7 +60,7 @@ void Fraction::fractionReduce() {
     int nominator = attributes.getNominator();
     int denominator = attributes.getDenominator();
     int smallest = nominator > denominator ? denominator : nominator;
-    int largest_common_divisor = 0;
+    int largest_common_divisor = 1;
 
     for (int i = 1; i < sqrt(smallest); i++) {
         if (nominator % i == 0 && denominator % i == 0 && i > largest_common_divisor) {
